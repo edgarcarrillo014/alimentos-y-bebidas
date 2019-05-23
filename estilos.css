@@ -1,0 +1,189 @@
+.titulo{
+    color:black;
+    font-size: 60px;
+    text-align: center;
+    font-family:fantasy;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -khtml-border-radius: 0px;
+    background: #fff;
+     width: 1300px;
+    margin: 30px auto;
+    border: black 3px solid;
+    box-shadow: 2px 2px 5px #ccc;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+ 
+
+}
+body{
+    background: url(https://img.freepik.com/foto-gratis/textura-fondo_1404-93.jpg?size=626&ext=jpg); 
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+#nav{
+    margin: 20px;
+    padding: 0;
+    float:;
+    
+}
+#nav li{
+    list-style: none;
+    background: #fff;
+    width: 250px;
+    border-bottom: 1px solid #666;
+}
+
+#nav li a{
+    display: block;
+    padding: 18px;
+    border-left:  4px solid #444;
+    text-decoration: none;
+    box-shadow: 2px 2px 5px #ccc;
+    color: #555;
+    border: 2px solid #444;
+    
+}
+
+#nav li a:hover{
+    border-left: 4px solid #069;
+    background: #f8f8f8;
+    color: #CE7D35
+}
+
+#nav li ul{
+    display: none;
+}
+
+}
+
+#nav li:hover ul li{
+    background: #333;
+}
+
+#nav li:hover ul li a{
+    color: #ccc;
+}
+
+#nav li:hover ul li a:hover{
+    background: #222;
+    border-left: 4px solid #900;
+}
+
+.texto2{
+      color:black;
+    text-align:left
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -khtml-border-radius: 0px;
+    background:#fff;
+     width: 878px;
+    padding: 78px;
+    position:absolute;
+    bottom: 30px;
+    left: 290px;
+    z-index: 1;
+    border: black 2px solid;
+    box-shadow: 2px 2px 5px #ccc;
+}
+.operacion{
+      color:black;
+    font-size: 20px;
+    text-align:center;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    background: #fff;
+    width: 500px;
+    padding: 100px;
+    position: relative;
+    left: 300px;
+    z-index: 1;
+    border: black 2px solid;
+
+}
+
+#nav .icono{
+    font-size: 20px;
+    margin-right: 10px;
+  
+   
+}
+
+.slider{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider ul{
+    padding: 100;
+    display: flex;
+    width: 400%;
+   
+    
+    animation: cambio 8s infinite;
+    animation-direction: alternate;
+    
+}
+
+.slider li{
+    list-style: none;
+    width: 100%;
+     border: black 2px solid;
+}
+
+.slider img{
+    width: 100%;
+}
+
+@keyframes cambio{
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+    
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+    
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+    
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+   
+}
+.ola{
+  text-align: center; 
+    position: relative;
+    left: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
